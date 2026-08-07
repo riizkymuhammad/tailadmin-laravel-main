@@ -11,7 +11,7 @@ export const initChartOne = () => {
         },],
         colors: ["#2563EB"],
         chart: {
-            fontFamily: "Outfit, sans-serif",
+            fontFamily: "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
             type: "bar",
             height: 180,
             toolbar: {
@@ -60,7 +60,7 @@ export const initChartOne = () => {
             show: true,
             position: "top",
             horizontalAlign: "left",
-            fontFamily: "Outfit",
+            fontFamily: "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
             markers: {
                 radius: 99,
             },

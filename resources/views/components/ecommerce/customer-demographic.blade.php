@@ -22,7 +22,7 @@
 <div class="rounded-md border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] sm:p-6">
     <div class="flex justify-between">
         <div>
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-white/90">
+            <h3 class="card-title text-gray-800 dark:text-white/90">
                 Customers Demographic
             </h3>
             <p class="mt-1 text-theme-sm text-gray-500 dark:text-gray-400">
@@ -47,7 +47,7 @@
                         <img src="{{ $country['flag'] }}" alt="{{ strtolower($country['name']) }}" />
                     </div>
                     <div>
-                        <p class="stat-value text-theme-sm text-gray-800 dark:text-white/90">
+                        <p class="text-theme-sm text-gray-800 dark:text-white/90">
                             {{ $country['name'] }}
                         </p>
                         <span class="block text-theme-xs text-gray-500 dark:text-gray-400">

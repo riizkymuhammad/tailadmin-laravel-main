@@ -17,7 +17,11 @@
   --primary-active: #1e40af;
   --primary-soft: #eff6ff;
 
-  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
 }
 
 @theme {
@@ -201,7 +205,7 @@
   }
   body {
     @apply relative z-1 bg-gray-50;
-    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    font-family: var(--font-sans);
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
@@ -259,21 +263,21 @@
 
 @layer components {
   .page-title {
-    font-size: 30px !important;
-    line-height: 36px !important;
+    font-size: 20px !important;
+    line-height: 1.25 !important;
     font-weight: 600 !important;
   }
 
   .section-title {
-    font-size: 24px !important;
-    line-height: 32px !important;
+    font-size: 18px !important;
+    line-height: 1.375 !important;
     font-weight: 600 !important;
   }
 
   .card-title {
-    font-size: 18px !important;
-    line-height: 28px !important;
-    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 1.25 !important;
+    font-weight: 500 !important;
   }
 
   .card-description {
@@ -293,7 +297,44 @@
   }
 
   .stat-value {
-    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 1 !important;
+    font-weight: 300 !important;
+    letter-spacing: -0.02em;
+  }
+
+  .stat-detail-value {
+    font-size: 28px !important;
+    line-height: 1 !important;
+    font-weight: 300 !important;
+  }
+
+  .stat-label {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .sidebar-brand {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .sidebar-brand-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .sidebar-menu {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+  }
+
+  .sidebar-group-title {
+    font-size: 12px;
+    font-weight: 400;
   }
 
   button,
@@ -472,12 +513,20 @@
 }
 
 /* third-party libraries CSS */
+.apexcharts-canvas,
+.apexcharts-canvas text,
+.apexcharts-tooltip,
+.apexcharts-legend-text,
+.jvm-container {
+  font-family: var(--font-sans) !important;
+}
+
 .apexcharts-legend-text {
-  @apply !text-gray-700 dark:!text-gray-400;
+  @apply !text-theme-xs !font-normal !text-gray-700 dark:!text-gray-400;
 }
 
 .apexcharts-text {
-  @apply !fill-gray-700 dark:!fill-gray-400;
+  @apply !text-theme-xs !font-normal !fill-gray-700 dark:!fill-gray-400;
 }
 
 .apexcharts-tooltip.apexcharts-theme-light {
@@ -517,7 +566,14 @@
 #chartTwo .apexcharts-datalabels-group .apexcharts-text,
 #chartThirteen .apexcharts-datalabels-group .apexcharts-text,
 #chartTwelve .apexcharts-datalabels-group .apexcharts-text {
-  @apply !fill-gray-800 !font-semibold dark:!fill-white/90;
+  @apply !fill-gray-800 dark:!fill-white/90;
+}
+
+#chartTwo .apexcharts-datalabel-value {
+  font-size: 48px !important;
+  line-height: 1 !important;
+  font-weight: 300 !important;
+  letter-spacing: -0.02em;
 }
 
 #chartSixteen .apexcharts-legend {

@@ -24,7 +24,7 @@ export function initChartSix() {
             ],
             colors: ["#1E40AF", "#2563EB", "#60A5FA", "#BFDBFE"],
             chart: {
-                fontFamily: "Outfit, sans-serif",
+                fontFamily: "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
                 type: "bar",
                 stacked: true,
                 height: 315,
@@ -60,7 +60,7 @@ export function initChartSix() {
                 show: true,
                 position: "top",
                 horizontalAlign: "left",
-                fontFamily: "Outfit",
+                fontFamily: "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
                 fontSize: "14px",
                 fontWeight: 400,
                 markers: {

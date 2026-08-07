@@ -7,7 +7,7 @@ export const initChartTwo = () => {
             series: [75.55],
             colors: ["#2563EB"],
             chart: {
-                fontFamily: "Outfit, sans-serif",
+                fontFamily: "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
                 type: "radialBar",
                 height: 330,
                 sparkline: {
@@ -31,8 +31,8 @@ export const initChartTwo = () => {
                             show: false,
                         },
                         value: {
-                            fontSize: "36px",
-                            fontWeight: "600",
+                            fontSize: "48px",
+                            fontWeight: "300",
                             offsetY: 60,
                             color: "#1D2939",
                             formatter: function (val) {

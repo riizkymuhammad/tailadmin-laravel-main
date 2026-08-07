@@ -20,7 +20,7 @@ export const initChartThree = () => {
             },
             colors: ["#2563EB", "#93C5FD"],
             chart: {
-                fontFamily: "Outfit, sans-serif",
+                fontFamily: "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
                 height: 310,
                 type: "area",
                 toolbar: {

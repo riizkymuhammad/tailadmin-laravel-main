@@ -249,7 +249,7 @@ export function initChartThirteen() {
             },
             colors: ["#2563EB"],
             chart: {
-                fontFamily: "Outfit, sans-serif",
+                fontFamily: "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
                 height: 335,
                 id: "area-datetime",
                 type: "area",

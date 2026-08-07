@@ -24,8 +24,8 @@
 
       <div class="flex items-end justify-between mt-5">
         <div>
-          <span class="text-sm text-gray-500 dark:text-gray-400">Customers</span>
-          <h4 class="stat-value mt-2 text-gray-800 text-title-sm dark:text-white/90">3,782</h4>
+          <span class="stat-label text-gray-500 dark:text-gray-400">Customers</span>
+          <h4 class="stat-value mt-2 text-gray-800 dark:text-white/90">3,782</h4>
         </div>
 
         <span
@@ -77,8 +77,8 @@
 
       <div class="flex items-end justify-between mt-5">
         <div>
-          <span class="text-sm text-gray-500 dark:text-gray-400">Orders</span>
-          <h4 class="stat-value mt-2 text-gray-800 text-title-sm dark:text-white/90">5,359</h4>
+          <span class="stat-label text-gray-500 dark:text-gray-400">Orders</span>
+          <h4 class="stat-value mt-2 text-gray-800 dark:text-white/90">5,359</h4>
         </div>
 
         <span

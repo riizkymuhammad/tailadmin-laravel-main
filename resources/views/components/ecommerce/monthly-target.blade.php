@@ -2,7 +2,7 @@
     <div class="shadow-default rounded-md bg-white px-5 pb-11 pt-5 dark:bg-gray-900 sm:px-6 sm:pt-6">
         <div class="flex justify-between">
             <div>
-                <h3 class="text-lg font-semibold text-gray-800 dark:text-white/90">
+                <h3 class="card-title text-gray-800 dark:text-white/90">
                     Monthly Target
                 </h3>
                 <p class="mt-1 text-theme-sm text-gray-500 dark:text-gray-400">
@@ -26,11 +26,11 @@
 
     <div class="flex items-center justify-center gap-5 px-6 py-3.5 sm:gap-8 sm:py-5">
         <div>
-            <p class="mb-1 text-center text-theme-xs text-gray-500 dark:text-gray-400 sm:text-sm">
+            <p class="stat-label mb-1 text-center text-gray-500 dark:text-gray-400">
                 Target
             </p>
             <p
-                class="stat-value flex items-center justify-center gap-1 text-base text-gray-800 dark:text-white/90 sm:text-lg">
+                class="stat-detail-value flex items-center justify-center gap-1 text-gray-800 dark:text-white/90">
                 $20K
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -44,11 +44,11 @@
         <div class="h-7 w-px bg-gray-200 dark:bg-gray-800"></div>
 
         <div>
-            <p class="mb-1 text-center text-theme-xs text-gray-500 dark:text-gray-400 sm:text-sm">
+            <p class="stat-label mb-1 text-center text-gray-500 dark:text-gray-400">
                 Revenue
             </p>
             <p
-                class="stat-value flex items-center justify-center gap-1 text-base text-gray-800 dark:text-white/90 sm:text-lg">
+                class="stat-detail-value flex items-center justify-center gap-1 text-gray-800 dark:text-white/90">
                 $20K
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -62,11 +62,11 @@
         <div class="h-7 w-px bg-gray-200 dark:bg-gray-800"></div>
 
         <div>
-            <p class="mb-1 text-center text-theme-xs text-gray-500 dark:text-gray-400 sm:text-sm">
+            <p class="stat-label mb-1 text-center text-gray-500 dark:text-gray-400">
                 Today
             </p>
             <p
-                class="stat-value flex items-center justify-center gap-1 text-base text-gray-800 dark:text-white/90 sm:text-lg">
+                class="stat-detail-value flex items-center justify-center gap-1 text-gray-800 dark:text-white/90">
                 $20K
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                     xmlns="http://www.w3.org/2000/svg">

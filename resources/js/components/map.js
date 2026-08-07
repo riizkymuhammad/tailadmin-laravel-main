@@ -12,7 +12,7 @@ export const initMap = () => {
             zoomButtons: false,
             regionStyle: {
                 initial: {
-                    fontFamily: "Outfit",
+                    fontFamily: "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
                     fill: "#D9D9D9",
                 },
                 hover: {
